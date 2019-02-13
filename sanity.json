@@ -1,0 +1,23 @@
+{
+  "root": true,
+  "project": {
+    "name": "Carusele Backend"
+  },
+  "api": {
+    "projectId": "olj4kf4s",
+    "dataset": "production"
+  },
+  "plugins": [
+    "@sanity/base",
+    "@sanity/components",
+    "@sanity/default-layout",
+    "@sanity/default-login",
+    "@sanity/desk-tool"
+  ],
+  "parts": [
+    {
+      "name": "part:@sanity/base/schema",
+      "path": "./schemas/schema.js"
+    }
+  ]
+}
