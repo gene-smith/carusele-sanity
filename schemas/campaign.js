@@ -9,9 +9,9 @@ export default {
             type: 'string',
             required: true
         }, {
-            name: 'url',
-            title: 'Url',
-            type: 'string'
+            name: 'link',
+            title: 'Link',
+            type: 'url'
         }, {
             name: 'contentType',
             title: 'Content Type',
